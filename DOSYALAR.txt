@@ -1,0 +1,42 @@
+📦 ANIMA — COMPLETE NEXT.JS PROJECT
+=====================================
+
+Proje Yapısı:
+
+📁 anima-nextjs-complete/
+├── 📄 QUICK_START.md          ← BUNU ÖNCESİ OKU!
+├── 📄 README.md               ← Detaylı bilgi
+├── 📄 SETUP.md                ← Vercel deploy rehberi
+├── 📄 package.json            ← Bağımlılıklar
+├── 📄 next.config.js          ← Next.js config
+├── 📄 vercel.json             ← Vercel config
+├── 📄 .gitignore              ← Git ayarları
+├── 📄 .env.local.example      ← API key şablonu (`.env.local` yaparak kopyala)
+│
+├── 📁 pages/                  ← Next.js sayfaları
+│   ├── 📄 index.js            ← Ana sayfa (Anima uygulaması yüklenecek)
+│   ├── 📄 _app.js             ← Global wrapper
+│   ├── 📄 _document.js        ← HTML template
+│   └── 📁 api/                ← Backend API routes
+│       ├── 📄 exercise.js     ← Günlük egzersiz endpoint
+│       └── 📄 weekly.js       ← Haftalık özet endpoint
+│
+├── 📁 components/             ← React componentleri
+│   └── 📄 AnimaApp.jsx        ← Ana uygulama componenti
+│
+├── 📁 styles/                 ← CSS
+│   └── 📄 globals.css         ← Global stil
+│
+└── 📁 public/                 ← Statik dosyalar (opsiyonel)
+
+TOPLAM: ~10KB kod + bağımlılıklar
+
+
+🚀 BAŞLAMAK İÇİN:
+
+1. Klasörü indir
+2. QUICK_START.md OKU
+3. 5 dakika içinde çalışır
+
+
+✨ HEPSİ TAMAM!
